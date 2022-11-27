@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Dicionario de dados</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1 align="center"> Comandos de titulos</h1>
+		<h1>Tamanho h1</h1>
+		<h2>Tamanho h2</h2>
+		<h3>Tamanho h3</h3>
+		<h4>Tamanho h4</h4>
+		<h5>Tamanho h5</h5>
+		<h6>Tamanho h6</h6><br><hr>
+		<h1 align="center"> Comandos de formatação de texto</h1>
+		<p> A tag < p > é utilizada para fazer paragrafos</p>
+		 O Comando < hr > cria uma linha automaticamente.<br>
+		<strong> O comando < strong > Deixa o texto em negrito.</strong><br>
+		O comando <em> < em > coloca o texto em Italico</em>.<br>
+		O comando < u><u> deixa o texto sublinhado</u><br>
+		O comando  < strike> <strike> faz um risco no meio da palavra</strike><br>
+		O comando < img src> adiciona imagens.<br>
+		O comando < !-- inicia o comentario e --> fecha.<!-- teste--><br>
+		O comando < img src> carrega imagens e para definir tamenho utiliza width e height
+		<hr><h1 align="center"> Criando Listas</h1></p>
+		<h2 align="center"> Listas não erdenadas ou unordered list</h2>
+			Esse comando é chamado pelo < ul> e o < li> exemplo:<br>
+			<h2>Nome da lista</h2>
+				<ul type="disk"><li>Linha1</li>
+				<li>Linha 2</li>
+				<li>Linha 3</li></ul>
+		<h2 align="center"> Listas ordenadas<br></h2>
+			ela utiliza marcadores inicia com < ol>, ele numera os itens, exemplo<br>
+			<ol type="I"> Perguntas
+				<li> Qual sua comida favorita?</li>
+				<li> Qual seu carro favorito?</li>
+				<li> Qual sua banda favorita?</li></ol><hr>
+				<h1 align="center">Tabelas</h1>
+
+		O comando < table> cria tabelas, atributo border="" adiciona bordas, a linha da tabela inicia com < tr> e para inserir dados utiliza o  < td>, Para os titulos das tabelas podemos utilizar o < th> exemplo:<br>
+		<table border="2" align="center">
+			<tr><th> titulo 1</th>
+				<th>titulo 2 </th>
+				<th>Titulo 3</th>
+				<tr><td>1</td>
+				<td>2</td>
+				<td>3</td></tr></tr></table><br>
+		Para agrupar colunas utiliza colspan dentro da TD, exemplo<br>
+			<table border="2" align="center">
+			<tr><tr><th> titulo 1</th>
+				<th>titulo 2 </th>
+				<th>Titulo 3</th>
+				<tr><td colspan="3" align="center">1</td><br></tr></tr></tr></table><br>
+		Para agrupar linhas itiliza o rowspan dentro da td, exemplo:<br>
+					<table border="2" align="center">
+			<tr><tr><th rowspan="2"> titulo 1</th>
+				<th>titulo 2 </th>
+				<th>Titulo 3</th>
+				<tr><td>1</td>
+				<td>2</td></tr></tr></tr></table><br>
+
+		<h1 align="center">Criando menus de Login</h1><!-- Criando uma pagina de LOGIN-->
+
+		<form action="PAGINA QUE RECEBERIA OS DADOS">
+		Login:<br>
+		<input type="text" name="Login"><br>
+		Senha:<br>
+		<input type="password" name="Senha"><br>
+		<input type="button" value="Logar">
+
+		<h1 align="center">Criando Checkbox</h1>
+		<input type="checkbox" name="Interesses">Futebol<br>
+		<input type="checkbox" name="Interesses">Cursos<br>
+		<input type="checkbox" name="Interesses">Moda<br>
+<h1 align="center"> Botões tipo RADIO</h1>
+			<input type="radio" name="Sexo" value="M">Masculino<br>
+		<input type="radio" value="Logar" value="F">Feminino<br>
+		<h1>Comando Select</h1>
+		<p>Utilizamos esse comando para criar um menu de dropdown com opçoes.<br>
+				<select>
+			<option value="SP">SP </option>
+			<option value="RJ">RJ</option>
+			<option value="MG">MG</option>
+		</select><br>
+		<h1 align="center">Caixa de texto</h1>
+		Para criar uma caixa de texto utilize o < textarea><br> 
+			<textarea></textarea>
+	</body>
+
+
+</html>

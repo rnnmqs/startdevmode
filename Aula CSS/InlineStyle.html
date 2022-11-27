@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Inline e Internal</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			p{color: black; font-family: Tahoma;}
+			h1{color: black; font-family: Tahoma; text-align: center}
+			.centertext{ text-align:center; color: blue}
+			#principal{}
+		</style>
+	</head>
+	<body id="principal">
+	<h1>Estilo INLINE</h1>
+	<p style="color: red;">O inline Style é onde o CSS e aplicado direto na linha</p>
+	<p style="color:green">Utilizamos as cores em ingles ou em codigo</p>
+	<p style="color:#000080">Cor Navy.</p>
+	<p style="color:#00FFFF">Ciano</p>
+	<p style="color:#00FF00">Verde lima</p>
+	<h1>Internal Style Sheet</h1>
+	<p>Essa linha está formatada pelo Internal CSS declarado dentro do escopo HEAD utilizando a tag < style> e abaixo as tags que vao ser personalizadas</p>
+	<p class="centertext">< style type ="text/css"><br>p{color:darkblue;font-family:Tahoma;}<br>h1{color:grey;font-family: Tahoma;}<br>< /style></p>
+	<h1>Conceito de classes e ID's</h1>
+	<p>Para utilizar classes inicia com o .+nome da classe{...} e pode ser utilizado diversas vezes dentro do codido.
+	<p>Os ID's são unicos dentro da pagina, ou seja, só podem ser utilizados uma unica vez, ele inicia com #+nome do ID{...}.
+	</body>
+</html>
